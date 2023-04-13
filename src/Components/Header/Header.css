@@ -1,0 +1,39 @@
+.continer {
+  padding: 0 100px;
+  margin-bottom: -60px;
+  display: flex;
+  justify-content: end;
+}
+.btn {
+  float: left;
+  margin-right: 800px;
+  text-decoration: none;
+  font-size: 45px;
+  color: white;
+  background-color: darkmagenta;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: darkorchid;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px darkmagenta;
+
+}
+.continer .header .register,
+.continer .header .login {
+  margin: 10px;
+  border-radius: 25px;
+  width: 135px;
+  height: 50px;
+  background-color: darkmagenta;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}

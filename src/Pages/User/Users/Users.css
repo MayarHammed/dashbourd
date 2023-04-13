@@ -1,0 +1,42 @@
+table {
+  position: relative;
+  bottom: 800px;
+  left: 80px;
+  border-collapse: collapse;
+  width: 90%;
+  table-layout: fixed;
+  background-color: black;
+  color: wheat;
+}
+tr{
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+
+th {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+td {
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+  color: wheat;
+  padding: 25px;
+}
+
+/* button */
+.del{
+  background-color: wheat;
+  color: black;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+

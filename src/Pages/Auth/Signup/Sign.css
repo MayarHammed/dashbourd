@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Register{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkviolet;
+    
+}
+
+form{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 1px 1px 50px 0px darkmagenta;
+    background-color: rgb(234, 233, 233);
+    border-radius: 10px;
+
+
+}
+form:hover{
+    transition: 0.3s;
+    border-radius: 100px;
+    box-shadow: 1px 1px 100px 0px black;
+}
+p{
+    color: red;
+    margin-top: 0;
+    font-family: 12px;
+    padding: 0;
+}
+label{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    padding: 14px;
+    width: 400px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 15px;
+    border: 0;
+}
+.submit{
+    margin: auto;
+    padding: 30px;
+}
+.submit button{
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    background-color: darkmagenta;
+    color: white;
+    outline: none;
+}

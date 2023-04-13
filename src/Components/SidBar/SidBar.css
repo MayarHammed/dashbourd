@@ -1,0 +1,28 @@
+.sidbar {
+  border-right: 3px solid grey;
+  box-shadow: 10px 0px 6px 5px darkmagenta;
+  width: 250px;
+  height: 800px;
+  margin-top: 100px;
+}
+
+.sidbar .btn-sidbar {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  padding: 15px;
+  display: block;
+  font-family: cursive;
+}
+
+.sidbar .btn-sidbar:hover {
+  transition: 0.5s;
+  background-color: darkmagenta;
+}
+.active {
+  background-color: darkmagenta;
+}
+.fas {
+  color: black;
+  opacity: 0.7;
+}

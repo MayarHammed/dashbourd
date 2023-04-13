@@ -1,0 +1,8 @@
+.app-parent{
+    height: 0;
+    background-color: red;
+    margin-left: 200px;
+    position: relative;
+    left: 70px;
+    top: -825px;   
+}
